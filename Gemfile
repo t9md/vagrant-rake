@@ -3,7 +3,7 @@ source "http://rubygems.org"
 # Specify your gem's dependencies in vagrant-rake.gemspec
 gem "vagrant-rake", :path => "."
 
-gem "vagrant", :git => "git://github.com/mitchellh/vagrant.git"
+gem "vagrant", ">= 0.8"
 
 group :test do
   gem "protest", "~> 0.4.0"
